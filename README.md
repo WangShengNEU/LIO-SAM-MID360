@@ -5,8 +5,8 @@
 
 ## Dependency
 
-- 与LIO-SAM有相同依赖 ( [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM/) ）
-- 请安装LIVOX ROS包用于发布点云数据 ( [览沃 ROS 驱动程序](https://github.com/Livox-SDK/livox_ros_driver/) )
+- 与LIO-SAM有相同依赖
+- 请安装livox_ros_driven
 
 如果使用Livox-ros-driver2 驱动可以切换分支为 [Livox-ros-driver2](https://github.com/nkymzsy/LIO-SAM-MID360/tree/Livox-ros-driver2) 。
 
@@ -28,10 +28,6 @@ roslaunch lio_sam run6axis.launch
 roslaunch lio_sam run9axis.launch
 ```
 ## Acknowledgement
-
-- [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM/)
-- [LIO-SAM-DetailedNote](https://github.com/smilefacehh/LIO-SAM-DetailedNote)
-- [LIO_SAM_6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS)
 
 # 保存地图： rosservice call [service] [resolution] [destination]
 # source devel/setup.bash
