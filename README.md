@@ -30,7 +30,9 @@ roslaunch lio_sam run9axis.launch
 ## Acknowledgement
 
 ## 保存地图：
+
+```
 source devel/setup.bash
 rosservice call /lio_sam/save_map 0.2 "work/LIO-SAM/save_pcd/"
-
+```
 
